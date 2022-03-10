@@ -19,7 +19,7 @@ Parameters:
   # *** The owner of the Github repo for this application.
   GitHubOwner:
     Type: String
-    Default: symphoniacloud
+    Default: rorosentrater
     AllowedPattern: "[A-Za-z0-9-]+"
 
   GitHubRepo:
@@ -35,7 +35,7 @@ Parameters:
   # *** The stack name for the actual application we're deploying
   ApplicationStackName:
     Type: String
-    Default: github-codepipeline-app
+    Default: rob-codepipeline-deployed-app-test
     AllowedPattern: "[A-Za-z0-9-]+"
 
 Resources:
