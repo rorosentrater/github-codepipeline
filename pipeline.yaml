@@ -5,6 +5,7 @@ Description: rob-codepipeline-test
 Parameters:
   # *** This value must always be passed in when creating / updating stack
   # "NoEcho" is set to true, for security, so token won't be visible when examining the resulting stack
+  # lets test a push
   GitHubOAuthToken:
     Type: String
     NoEcho: true
